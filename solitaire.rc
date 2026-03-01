@@ -1,0 +1,73 @@
+#include "resource.h"
+
+IDR_MAINMENU MENU
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&New", IDM_GAME_NEW
+        MENUITEM "&Save State", IDM_GAME_SAVE
+        MENUITEM "&Load State", IDM_GAME_LOAD
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit", IDM_GAME_EXIT
+    END
+    POPUP "&Difficulty"
+    BEGIN
+        MENUITEM "&Easy (Draw 1)", IDM_DIFFICULTY_EASY
+        MENUITEM "&Hard (Draw 3, one reset)", IDM_DIFFICULTY_HARD
+    END
+END
+
+IDI_CARD_BACK ICON "icons/card_back.ico"
+IDI_CARD_EMPTY ICON "icons/card_empty.ico"
+50100 ICON "icons/card_00.ico"
+50101 ICON "icons/card_01.ico"
+50102 ICON "icons/card_02.ico"
+50103 ICON "icons/card_03.ico"
+50104 ICON "icons/card_04.ico"
+50105 ICON "icons/card_05.ico"
+50106 ICON "icons/card_06.ico"
+50107 ICON "icons/card_07.ico"
+50108 ICON "icons/card_08.ico"
+50109 ICON "icons/card_09.ico"
+50110 ICON "icons/card_10.ico"
+50111 ICON "icons/card_11.ico"
+50112 ICON "icons/card_12.ico"
+50113 ICON "icons/card_13.ico"
+50114 ICON "icons/card_14.ico"
+50115 ICON "icons/card_15.ico"
+50116 ICON "icons/card_16.ico"
+50117 ICON "icons/card_17.ico"
+50118 ICON "icons/card_18.ico"
+50119 ICON "icons/card_19.ico"
+50120 ICON "icons/card_20.ico"
+50121 ICON "icons/card_21.ico"
+50122 ICON "icons/card_22.ico"
+50123 ICON "icons/card_23.ico"
+50124 ICON "icons/card_24.ico"
+50125 ICON "icons/card_25.ico"
+50126 ICON "icons/card_26.ico"
+50127 ICON "icons/card_27.ico"
+50128 ICON "icons/card_28.ico"
+50129 ICON "icons/card_29.ico"
+50130 ICON "icons/card_30.ico"
+50131 ICON "icons/card_31.ico"
+50132 ICON "icons/card_32.ico"
+50133 ICON "icons/card_33.ico"
+50134 ICON "icons/card_34.ico"
+50135 ICON "icons/card_35.ico"
+50136 ICON "icons/card_36.ico"
+50137 ICON "icons/card_37.ico"
+50138 ICON "icons/card_38.ico"
+50139 ICON "icons/card_39.ico"
+50140 ICON "icons/card_40.ico"
+50141 ICON "icons/card_41.ico"
+50142 ICON "icons/card_42.ico"
+50143 ICON "icons/card_43.ico"
+50144 ICON "icons/card_44.ico"
+50145 ICON "icons/card_45.ico"
+50146 ICON "icons/card_46.ico"
+50147 ICON "icons/card_47.ico"
+50148 ICON "icons/card_48.ico"
+50149 ICON "icons/card_49.ico"
+50150 ICON "icons/card_50.ico"
+50151 ICON "icons/card_51.ico"
